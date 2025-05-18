@@ -44,6 +44,38 @@ Create a Team Creator game where users can create teams from a pool of players w
 - **Code Organization:** Structure your code logically. Consider implementing a ViewModel to separate UI logic from business logic (data manipulation, validation, team creation algorithm).
 - **Error Handling:** Provide clear feedback to the user for actions like exceeding the budget, trying to select more than 5 players, or if no optimal team can be formed. Alerts or on-screen messages are appropriate.
 
+### 3. Example: Determining the "Best Team" (Based on Sample Data)
+
+For the provided sample player data:
+
+```
+| Name        | Skill | Cost ($M) |
+|-------------|-------|-----------|
+| Rituraj     | 8     | 12.0      |
+| Rishabh     | 7     | 10.0      |
+| Rohit       | 9     | 15.0      |
+| Bhuvneshwar | 6     | 8.0       |
+| Hardik      | 8     | 11.0      |
+| Kuldeep     | 7     | 9.0       |
+| Kohli       | 9     | 14.0      |
+| Dhoni       | 6     | 7.0       |
+| Bumrah      | 8     | 12.0      |
+| Surya       | 7     | 10.0      |
+```
+
+And the rules (5 players, max $50M budget, maximize total skill), one such "Best Team" could be:
+
+- **Rohit** (Skill: 9, Cost: 15M)
+- **Hardik** (Skill: 8, Cost: 11M)
+- **Kuldeep** (Skill: 7, Cost: 9M)
+- **Dhoni** (Skill: 6, Cost: 7M)
+- **Bhuvneshwar** (Skill: 6, Cost: 8M)
+
+**Total Team Skill:** 36
+**Total Team Cost:** $50M
+
+_Notes: Your algorithm should find this team or another team with the same optimal skill and cost. There might be multiple teams that meet the criteria for "best". The key is to implement an algorithm that correctly identifies a team with the maximum possible skill within the budget._
+
 ## Requirements (Provided Boilerplate)
 
 - iOS 15.0+
