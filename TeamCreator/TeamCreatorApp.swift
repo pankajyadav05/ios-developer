@@ -42,16 +42,16 @@ struct PersistenceController {
     
     private func generateSampleData(context: NSManagedObjectContext) {
         let samplePlayers = [
-            ("Rituraj", 8, 12.0),
-            ("Rishabh", 7, 10.0),
-            ("Rohit", 9, 15.0),
-            ("Bhuvneshwar", 6, 8.0),
-            ("Hardik", 8, 11.0),
-            ("Kuldeep", 7, 9.0),
-            ("Kohli", 9, 14.0),
-            ("Dhoni", 6, 7.0),
-            ("Bumrah", 8, 12.0),
-            ("Surya", 7, 10.0)
+            ("John", 8, 12.0),
+            ("Sarah", 7, 10.0),
+            ("Mike", 9, 15.0),
+            ("Emma", 6, 8.0),
+            ("David", 8, 11.0),
+            ("Lisa", 7, 9.0),
+            ("Tom", 9, 14.0),
+            ("Anna", 6, 7.0),
+            ("James", 8, 12.0),
+            ("Maria", 7, 10.0)
         ]
         
         for (name, skill, cost) in samplePlayers {

@@ -51,25 +51,25 @@ For the provided sample player data:
 ```
 | Name        | Skill | Cost ($M) |
 |-------------|-------|-----------|
-| Rituraj     | 8     | 12.0      |
-| Rishabh     | 7     | 10.0      |
-| Rohit       | 9     | 15.0      |
-| Bhuvneshwar | 6     | 8.0       |
-| Hardik      | 8     | 11.0      |
-| Kuldeep     | 7     | 9.0       |
-| Kohli       | 9     | 14.0      |
-| Dhoni       | 6     | 7.0       |
-| Bumrah      | 8     | 12.0      |
-| Surya       | 7     | 10.0      |
+| John     | 8     | 12.0      |
+| Sarah     | 7     | 10.0      |
+| Mike       | 9     | 15.0      |
+| Emma | 6     | 8.0       |
+| David      | 8     | 11.0      |
+| Lisa     | 7     | 9.0       |
+| Tom       | 9     | 14.0      |
+| Anna       | 6     | 7.0       |
+| James      | 8     | 12.0      |
+| Maria       | 7     | 10.0      |
 ```
 
 And the rules (5 players, max $50M budget, maximize total skill), one such "Best Team" could be:
 
-- **Rohit** (Skill: 9, Cost: 15M)
-- **Hardik** (Skill: 8, Cost: 11M)
-- **Kuldeep** (Skill: 7, Cost: 9M)
-- **Dhoni** (Skill: 6, Cost: 7M)
-- **Bhuvneshwar** (Skill: 6, Cost: 8M)
+- **Mike** (Skill: 9, Cost: 15M)
+- **David** (Skill: 8, Cost: 11M)
+- **Lisa** (Skill: 7, Cost: 9M)
+- **Anna** (Skill: 6, Cost: 7M)
+- **Emma** (Skill: 6, Cost: 8M)
 
 **Total Team Skill:** 36
 **Total Team Cost:** $50M
