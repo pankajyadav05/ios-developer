@@ -44,10 +44,6 @@ Create a Team Creator game where users can create teams from a pool of players w
 - **Code Organization:** Structure your code logically. Consider implementing a ViewModel to separate UI logic from business logic (data manipulation, validation, team creation algorithm).
 - **Error Handling:** Provide clear feedback to the user for actions like exceeding the budget, trying to select more than 5 players, or if no optimal team can be formed. Alerts or on-screen messages are appropriate.
 
-## Optional Enhancements
-
-1.  **Search/Filter Players:** Allow users to search or filter the player list (e.g., by name).
-
 ## Requirements (Provided Boilerplate)
 
 - iOS 15.0+
